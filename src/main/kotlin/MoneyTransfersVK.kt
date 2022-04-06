@@ -58,7 +58,7 @@ fun main(args: Array<String>) {
                 transferFeeCalculation(transferSum, totalSumInMonthCards, selectedCardOrAccount)
 
             val taxSumRub = taxSum / TOTAL_IN_ROUBLE
-            println("Сумма перевода составит $taxSumRub руб.\n\n")
+            println("Комиссия за перевод составит $taxSumRub руб.\n\n")
         } else {
             println(errorText)
         }
